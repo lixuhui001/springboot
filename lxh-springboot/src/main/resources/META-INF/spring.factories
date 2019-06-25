@@ -1,0 +1,5 @@
+org.springframework.boot.env.EnvironmentPostProcessor=springboot.properties.MyEnvironmentPostProcessor
+#自动加载相关类
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=springboot.imports.bean.ImportsTestBean4
+#ApplicationContextInitializer,接口实在spring容器中执行refresh之前的一个回调
+org.springframework.context.ApplicationContextInitializer=springboot.expand.MyApplicationContextInitializer
